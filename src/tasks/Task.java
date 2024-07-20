@@ -1,3 +1,5 @@
+package tasks;
+import status.Status;
 import java.util.Scanner;
 public class Task {
 
@@ -47,7 +49,7 @@ public class Task {
 
     @Override
     public String toString() {
-        return "Task{" +
+        return "tasks.Task{" +
                 "id=" + id +
                 ", title='" + title + '\'' +
                 ", descript='" + descript + '\'' +

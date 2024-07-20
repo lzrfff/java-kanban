@@ -1,3 +1,9 @@
+package Manager;
+import status.Status;
+import tasks.Epic;
+import tasks.Subtask;
+import tasks.Task;
+
 import java.util.*;
 
 public class TaskManager {

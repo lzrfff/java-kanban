@@ -1,4 +1,5 @@
-
+package tasks;
+import status.Status;
 public class Subtask extends Task {
 
     private int idEpic;
@@ -21,7 +22,7 @@ public class Subtask extends Task {
 
     @Override
     public String toString() {
-        return "Subtask{" +
+        return "tasks.Subtask{" +
                 "idEpic=" + idEpic +
                 ", id=" + id +
                 ", title='" + title + '\'' +
