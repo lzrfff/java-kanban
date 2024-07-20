@@ -1,6 +1,6 @@
 
 public class Subtask extends Task {
-    //public boolean IdEpic;
+
     private int idEpic;
 
     public Subtask(int id, String title, String descript, Status statusTask, int idEpic) {
@@ -8,10 +8,7 @@ public class Subtask extends Task {
         this.idEpic = idEpic;
     }
 
-   /* public Subtask(Task task, int idEpic) {
-        super(task.id, task.title, task.descript, task.statusTask);
-        this.idEpic = idEpic;
-    }*/
+
 
     public int getIdEpic() {
         return idEpic;

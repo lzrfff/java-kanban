@@ -1,12 +1,30 @@
+import java.util.*;
+
 
 public class Epic extends Task {
-    protected int idStask;
+    protected ArrayList<Integer> subtaskIds = new ArrayList<>();;
 
-    public Epic(int id, String title, String descript, Status statusTask, Integer idStask) {
+    public Epic(int id, String title, String descript, Status statusTask, ArrayList<Integer> subtaskId) {
         super(id, title, descript, statusTask);
-        this.idStask = idStask;
+        this.subtaskIds=subtaskIds;
     }
 
+    public ArrayList<Integer> addSubtaskId(int id){
+        ArrayList<Integer> subtaskIds= new ArrayList<Integer>();
+
+        return  subtaskIds;
+
+    }
+
+
+
+    public ArrayList<Integer> getSubtaskIds() {
+        return subtaskIds;
+    }
+
+    public void setSubtaskIds(ArrayList<Integer> subtaskIds) {
+        this.subtaskIds = subtaskIds;
+    }
 
     public int getId() {
         return id;
@@ -22,14 +40,6 @@ public class Epic extends Task {
 
     public Status getStatusTask() {
         return statusTask;
-    }
-
-    public int getIdStask(){
-        return idStask;
-    }
-
-    public void setIdStask(int idStask) {
-        this.idStask = idStask;
     }
 
     public void setId(int id) {
@@ -49,4 +59,10 @@ public class Epic extends Task {
     public void setStatusTask(Status statusTask) {
         super.setStatusTask(statusTask);
     }
+
+    @Override
+    public String toString() {
+        return super.toString();
+    }
 }
+

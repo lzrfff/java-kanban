@@ -1,7 +1,6 @@
 import java.util.Scanner;
 public class Task {
-    //static TaskMahager mahager=new TaskMahager();
-    static Scanner scanner;
+
     protected int id;
     protected String title;
     protected String descript;
