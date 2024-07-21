@@ -6,13 +6,13 @@ public class Task {
     protected int id;
     protected String title;
     protected String descript;
-    protected Status statusTask;
+    protected Status status;
 
     public Task(int id, String title, String descript, Status statusTask) {
         this.id = id;
         this.title = title;
         this.descript = descript;
-        this.statusTask = statusTask;
+        this.status = statusTask;
     }
 
     public int getId() {
@@ -28,7 +28,7 @@ public class Task {
     }
 
     public Status getStatusTask() {
-        return statusTask;
+        return status;
     }
 
     public void setId(int id) {
@@ -44,7 +44,7 @@ public class Task {
     }
 
     public void setStatusTask(Status statusTask) {
-        this.statusTask = statusTask;
+        this.status = statusTask;
     }
 
     @Override
@@ -53,7 +53,7 @@ public class Task {
                 "id=" + id +
                 ", title='" + title + '\'' +
                 ", descript='" + descript + '\'' +
-                ", statusTask='" + statusTask + '\'' +
+                ", statusTask='" + status + '\'' +
                 '}';
     }
 

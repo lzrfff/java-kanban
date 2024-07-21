@@ -10,6 +10,13 @@ public class Subtask extends Task {
     }
 
 
+    @Override
+    public int getId() {
+        return super.getId();
+    }
+
+
+
 
     public int getIdEpic() {
         return idEpic;
@@ -27,7 +34,7 @@ public class Subtask extends Task {
                 ", id=" + id +
                 ", title='" + title + '\'' +
                 ", descript='" + descript + '\'' +
-                ", statusTask=" + statusTask +
+                ", statusTask=" + status +
                 '}';
     }
 }

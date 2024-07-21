@@ -1,4 +1,4 @@
-import Manager.TaskManager;
+import manager.TaskManager;
 import status.Status;
 import tasks.Subtask;
 import tasks.Task;
