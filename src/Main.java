@@ -5,7 +5,7 @@ import tasks.Task;
 
 public class Main {
     static TaskManager manager = new TaskManager();
-    //tasks.Task task=new tasks.Task();
+    //tasks.Task ru.yandex.javacource.Lazarev.schedule.task=new tasks.Task();
 
 
     public static void main(String[] args) {
